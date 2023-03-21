@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            <![CDATA[
+            #brick {
+                stroke: black;
+                fill: #ff0000;
+            }
+            ]]>
+        </style>
+    </defs>
+
+    <!-- The brick body -->
+    <rect y="12" width="100" height="60" id="brick" />
+
+    <!-- The studs-->
+    <path d="M 7 12
+    v -10
+    a 2 2 0 0 1 2 -2
+    h 30 
+    a 2 2 0 0 1 2 2
+    v 10" id="brick" />
+    <path d="M 57 12
+    v -10
+    a 2 2 0 0 1 2 -2
+    h 30 
+    a 2 2 0 0 1 2 2
+    v 10" id="brick" />
+</svg>
